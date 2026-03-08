@@ -17,20 +17,20 @@ The dataset contains 35,000+ rows of pharmaceutical inventory data, including:
 ## 🎯 Key Business Problems Addressed
 
 * **Insight 1: The 90-Day Expiry Crisis**
-  Discovered a catastrophic risk exposure: **87.19%** of the total warehouse capital (approx. **$2.13 Billion**) is locked in inventory expiring within the next 90 days. This represents an immediate, severe threat to operating cash flow. 
+  Discovered a catastrophic risk exposure: **12.79%** of the total warehouse capital is locked in inventory expiring within the next 90 days. This represents an immediate, severe threat to operating cash flow. 
 
 * **Insight 2: The Historical Cash Bleed**
-  Identified `GlucoBalance_562` as the worst historical offender for expired inventory. This single product line has already cost the company **$144.9 Million** in sunk hard costs, and over **$212.2 Million** in lost revenue opportunity.
+  Identified `GlucoBalance_494` as the worst historical offender for expired inventory. This single product line has already cost the company  in sunk hard costs, and over **7cr** in lost revenue opportunity.
 
 * **Insight 3: The Zombie Inventory**
   Isolated massive capital inefficiencies in >365-day dead stock. The model revealed that `DermaLux_458` alone accounts for **$172.3 Million** in locked capital sitting physically unmoved in the warehouse for over a year.
 
 ## 💡 Actionable Insights (Query Results)
-Insight 1: The 90-Day Expiry Crisis. Discovered a catastrophic risk exposure: 87.19% of the total warehouse capital (approx. $2.13 Billion) is locked in inventory expiring within the next 90 days. This represents an immediate, severe threat to operating cash flow. 
+Insight 1: The 90-Day Expiry Crisis. Discovered a catastrophic risk exposure: 12.79% of the total warehouse capital is locked in inventory expiring within the next 90 days. This represents an immediate, severe threat to operating cash flow. 
 
-Insight 2: The Historical Cash Bleed. Identified GlucoBalance_562 as the worst historical offender for expired inventory. This single product line has already cost the company $144.9 Million in sunk hard costs, and over $212.2 Million in lost revenue opportunity.
+Insight 2: The Historical Cash Bleed. Identified GlucoBalance_494 as the worst historical offender for expired inventory.
 
-Insight 3: The Zombie Inventory. Isolated massive capital inefficiencies in $>365$-day dead stock. The model revealed that DermaLux_458 alone accounts for $172.3 Million in locked capital sitting physically unmoved in the warehouse for over a year. 
+Insight 3: The Zombie Inventory. Isolated massive capital inefficiencies in >365-day dead stock. The model revealed that DermaLux_458 alone accounts for $172.3 Million in locked capital sitting physically unmoved in the warehouse for over a year. 
 
 ## 💻 Master SQL Script
 All queries used to generate these insights can be found in the [`PHARMA.sql`](PHARMA.sql) file.
